@@ -6,8 +6,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
-(setq user-full-name "John Doe"
-      user-mail-address "john@doe.com")
+(setq user-full-name "joedao"
+      user-mail-address "")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
@@ -56,3 +56,6 @@
 ;; they are implemented.
 
 (global-set-key "\C-s" 'swiper)
+
+(use-package! lsp-ivy :commands lsp-ivy-workspace-symbol)
+(use-package! lsp-treemacs :commands lsp-treemacs-errors-list)
