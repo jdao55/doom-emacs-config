@@ -48,4 +48,6 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 (package! lsp-treemacs)
+(package! jenkinsfile-mode)
 (package! ccls :disable t)
+
